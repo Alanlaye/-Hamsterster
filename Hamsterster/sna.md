@@ -190,8 +190,8 @@ df = pd.DataFrame({
     'PageRank': [round(pageranks[node], 4) for node in filtered_nodes],
     'Local Clustering Coefficient': [-round(local_clustering_coefficients[node], 4) for node in filtered_nodes],  # 负相关的指标
     'Degree Centrality': [round(bridge_nodes_degree_centrality[node], 4) for node in filtered_nodes],
-    'Community Effective Size': [-round(filtered_effective_sizes[node], 4) for node in filtered_nodes],  # 负相关的指标
-    'Hierarchy': [round(filtered_hierarchy[node], 4) for node in filtered_nodes]
+    'Community Effective Size': [round(filtered_effective_sizes[node], 4) for node in filtered_nodes],  
+    'Hierarchy': [-round(filtered_hierarchy[node], 4) for node in filtered_nodes] # 负相关的指标
 })
 
 # 设置Node列为索引
