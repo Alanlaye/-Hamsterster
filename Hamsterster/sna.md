@@ -15,7 +15,7 @@
 
 网络可视化如下：
 
-![avatar](picture\network.png)
+![networkx](https://raw.githubusercontent.com/Alanlaye/-Hamsterster/main/Hamsterster/picture/network.png)
 
 ### 2.2 实验任务
 预测社交网络中的结构洞所在。
@@ -111,7 +111,8 @@ plt.xlabel('Betweenness Centrality')
 plt.ylabel('Number of Nodes')
 plt.show()
 ```
-![avatar](picture\BT.png)
+![BT](https://raw.githubusercontent.com/Alanlaye/-Hamsterster/main/Hamsterster/picture/BT.png)
+
 
 ```python
 # 将介数中心性大于0.03的节点存入结构洞节点候选列表filtered_nodes
@@ -211,8 +212,7 @@ html = html + """
 display(HTML(html))
 ```
 
-![avatar](picture\result.png)
-
+![图片描述](https://raw.githubusercontent.com/Alanlaye/-Hamsterster/main/Hamsterster/picture/result.png)
 
 
 ## 四、实验结果与讨论
@@ -253,5 +253,5 @@ display(HTML(html))
 
 ## 附录：代码和数据
 实验完整代码可在以下链接找到：
-[实验代码](https://github.com/yourusername/hamsterster-analysis)
+[实验代码](https://github.com/Alanlaye/-Hamsterster)
 
